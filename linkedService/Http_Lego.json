@@ -1,0 +1,12 @@
+{
+	"name": "Http_Lego",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "cdn.rebrickable.com/media/downloads/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

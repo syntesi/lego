@@ -1,0 +1,16 @@
+{
+	"name": "LocalDBToAzureDB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-RM8FTBV;initial catalog=Fan;user id=Fan",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmODdkOTQ5NC1kYzdiLTRiODMtOWMzOC05ZDFmN2RhOWE2NGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
